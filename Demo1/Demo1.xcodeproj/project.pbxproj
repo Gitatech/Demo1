@@ -16,6 +16,7 @@
 		84DB44D52268AD27000CC1BE /* DMObject1.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB44D42268AD27000CC1BE /* DMObject1.m */; };
 		84DB44D82268B009000CC1BE /* DMObject2.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB44D72268B009000CC1BE /* DMObject2.m */; };
 		84DB44DB2268C56E000CC1BE /* DMObject1+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB44DA2268C56E000CC1BE /* DMObject1+Category.m */; };
+		84DB44DC2268CE0D000CC1BE /* DMObject1+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB44DA2268C56E000CC1BE /* DMObject1+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,10 +92,10 @@
 				84DB44A92268AA9A000CC1BE /* AppDelegate.m */,
 				84DB44D32268AD27000CC1BE /* DMObject1.h */,
 				84DB44D42268AD27000CC1BE /* DMObject1.m */,
-				84DB44D62268B009000CC1BE /* DMObject2.h */,
-				84DB44D72268B009000CC1BE /* DMObject2.m */,
 				84DB44D92268C56E000CC1BE /* DMObject1+Category.h */,
 				84DB44DA2268C56E000CC1BE /* DMObject1+Category.m */,
+				84DB44D62268B009000CC1BE /* DMObject2.h */,
+				84DB44D72268B009000CC1BE /* DMObject2.m */,
 				84DB44AE2268AA9A000CC1BE /* Main.storyboard */,
 				84DB44B12268AA9C000CC1BE /* Assets.xcassets */,
 				84DB44B32268AA9C000CC1BE /* LaunchScreen.storyboard */,
@@ -226,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DB44C22268AA9C000CC1BE /* Demo1Tests.m in Sources */,
+				84DB44DC2268CE0D000CC1BE /* DMObject1+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

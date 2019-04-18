@@ -42,8 +42,25 @@
     return self;
 }
 
+// add setter to override property
+- (void)setStrPublic2:(NSString *)strPublic2 {
+    // if current ivar is not equal to incoming
+    if (self.strPublic2 != strPublic2) {
+        [_strPublic2 release];
+        _strPublic2 = [strPublic2 copy];
+    }
+}
+
+-(void)updateProperty2 {
+    self.strPublic2 = self.initObject.strPublic;
+}
+
 -(void)testMethod {
-    [self.initObject updateProperty];
+    // check if initObject exists
+    SEL selUpdate = @selector(updateProperty);
+    if ([self.initObject respondsToSelector:selUpdate]) {
+        [self.initObject updateProperty];
+    }
 }
 
 -(void)dealloc {

@@ -15,5 +15,6 @@
 -(id)initWithObject:(DMObject1 *)object;
 -(id)initWithString:(NSString  *)string;
 -(void)testMethod;
+-(void)updateProperty2;
 
 @end
