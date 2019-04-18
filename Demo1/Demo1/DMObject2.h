@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "DMObject1.h"
+#import "DMObjectProtocol.h"
 
-@interface DMObject2 : NSObject
+@interface DMObject2 : NSObject<DMObjectProtocol>
 @property (nonatomic, copy) NSString *strPublic2;
 +(id)initWithObject:(DMObject1 *)object;
 -(id)initWithObject:(DMObject1 *)object;

@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DMObjectProtocol.h"
 
-@interface DMObject1 : NSObject
+@interface DMObject1 : NSObject <DMObjectProtocol>
 // all methods and objects described here will be visible outside
 @property (nonatomic, copy) NSString *strPublic;
 

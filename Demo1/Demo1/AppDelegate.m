@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "DMObject1.h"
+#import "DMObject1+Category.h"
+#import "DMObject2.h"
+#import "DMObject3.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +25,14 @@
     UIViewController *vc = [[UIViewController alloc] init];
     [self.window setRootViewController:vc];
     [vc release];
+    
+    DMObject1 *obj1 = [DMObject1 new];
+    DMObject2 *obj2 = [[DMObject2 alloc] initWithObject:obj1];
+    
+    DMObject3 *obj3 = [[DMObject3 alloc] init];
+    [obj3 launchProtocol:obj1];
+    [obj3 launchProtocol:obj2];
+    
     self.window.backgroundColor = UIColor.whiteColor;
     [self.window makeKeyAndVisible];
     return YES;

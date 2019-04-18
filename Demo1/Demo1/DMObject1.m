@@ -21,4 +21,12 @@
     
 }
 
+- (void)protocolMethodRequired {
+    NSLog(@"%@", @"Object1 required");
+}
+
+-(void)protocolMethodOptional {
+    NSLog(@"%@", @"Object1 optional");
+}
+
 @end

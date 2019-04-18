@@ -8,6 +8,7 @@
 
 #import "DMObject2.h"
 #import "DMObject1+Category.h"
+#import "DMObject3.h"
 
 #pragma mark - Object2
 @interface DMObject2 ()
@@ -61,6 +62,39 @@
     if ([self.initObject respondsToSelector:selUpdate]) {
         [self.initObject updateProperty];
     }
+    
+    DMObject3 *dm3 = [[DMObject3 new] autorelease];
+    [self testAutorelease:dm3];
+}
+
+
+
+-(void)testAutorelease:(DMObject3 *)obj3 {
+    // 1st type
+//    [obj3 retain];
+//    [obj3 newItem3];
+//    [obj3 release];
+    
+    // 2nd - custom autorelease pool
+    NSAutoreleasePool *pool = [NSAutoreleasePool autorelease];
+    // everyting between pool and [pool release] goes inside the pool
+    DMObject3 *object3 = [[DMObject3 new] autorelease];
+    
+    for (int i=0; i <= 10000000; i++) {
+        if (i==1000) {
+            [pool drain];
+        }
+    }
+    [pool release];
+    
+    // 3rd
+//    @autoreleasepool {
+//        
+//    }
+}
+
+- (void)protocolMethodRequired { 
+    
 }
 
 -(void)dealloc {
