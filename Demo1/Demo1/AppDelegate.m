@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  Demo1
 //
-//  Created by Admin on 17.04.2019.
+//  Created by Admin on 18.04.2019.
 //  Copyright © 2019 Admin. All rights reserved.
 //
 
@@ -16,7 +16,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    UIViewController *vc = [[UIViewController alloc] init];
+    [self.window setRootViewController:vc];
+    [vc release];
+    self.window.backgroundColor = UIColor.whiteColor;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
