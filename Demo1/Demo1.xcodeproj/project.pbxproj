@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841E10DD22691D3E007A87EE /* DMObject5.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E10DC22691D3E007A87EE /* DMObject5.m */; };
 		84DB44AA2268AA9A000CC1BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB44A92268AA9A000CC1BE /* AppDelegate.m */; };
 		84DB44B02268AA9A000CC1BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DB44AE2268AA9A000CC1BE /* Main.storyboard */; };
 		84DB44B22268AA9C000CC1BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DB44B12268AA9C000CC1BE /* Assets.xcassets */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		841E10DB22691D3E007A87EE /* DMObject5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMObject5.h; sourceTree = "<group>"; };
+		841E10DC22691D3E007A87EE /* DMObject5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMObject5.m; sourceTree = "<group>"; };
 		84DB44A52268AA9A000CC1BE /* Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DB44A82268AA9A000CC1BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84DB44A92268AA9A000CC1BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				84DB44E02268D1FE000CC1BE /* DMObjectProtocol.h */,
 				84DB44E12268EE3B000CC1BE /* DMObject4.h */,
 				84DB44E22268EE3B000CC1BE /* DMObject4.m */,
+				841E10DB22691D3E007A87EE /* DMObject5.h */,
+				841E10DC22691D3E007A87EE /* DMObject5.m */,
 				84DB44AE2268AA9A000CC1BE /* Main.storyboard */,
 				84DB44B12268AA9C000CC1BE /* Assets.xcassets */,
 				84DB44B32268AA9C000CC1BE /* LaunchScreen.storyboard */,
@@ -229,6 +234,7 @@
 				84DB44D82268B009000CC1BE /* DMObject2.m in Sources */,
 				84DB44B82268AA9C000CC1BE /* main.m in Sources */,
 				84DB44DB2268C56E000CC1BE /* DMObject1+Category.m in Sources */,
+				841E10DD22691D3E007A87EE /* DMObject5.m in Sources */,
 				84DB44AA2268AA9A000CC1BE /* AppDelegate.m in Sources */,
 				84DB44D52268AD27000CC1BE /* DMObject1.m in Sources */,
 				84DB44DF2268D15B000CC1BE /* DMObject3.m in Sources */,

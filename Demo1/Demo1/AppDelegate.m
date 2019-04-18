@@ -12,6 +12,7 @@
 #import "DMObject2.h"
 #import "DMObject3.h"
 #import "DMObject4.h"
+#import "DMObject5.h"
 
 @interface AppDelegate ()
 
@@ -46,6 +47,12 @@
     NSLog(@"obj4.value -> %@", [obj4 valueForKeyPath:@"aNumber"]);
     [obj4 setValue:@(20) forKey:@"aNumber"];
     NSLog(@"obj4.value -> %@", [obj4 valueForKeyPath:@"aNumber"]);
+    
+    
+    DMObject5 *obj5 = [[DMObject5 alloc] initWithObj4:obj4];
+    NSLog(@"iString -> %@", [obj4 valueForKeyPath:@"iString"]);
+    [obj5 testCall];
+    NSLog(@"iString -> %@", [obj4 valueForKeyPath:@"iString"]);
     
     self.window.backgroundColor = UIColor.whiteColor;
     [self.window makeKeyAndVisible];
