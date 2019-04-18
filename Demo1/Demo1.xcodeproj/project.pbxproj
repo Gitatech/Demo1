@@ -18,6 +18,7 @@
 		84DB44DB2268C56E000CC1BE /* DMObject1+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB44DA2268C56E000CC1BE /* DMObject1+Category.m */; };
 		84DB44DC2268CE0D000CC1BE /* DMObject1+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB44DA2268C56E000CC1BE /* DMObject1+Category.m */; };
 		84DB44DF2268D15B000CC1BE /* DMObject3.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB44DE2268D15B000CC1BE /* DMObject3.m */; };
+		84DB44E32268EE3B000CC1BE /* DMObject4.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB44E22268EE3B000CC1BE /* DMObject4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		84DB44DD2268D15B000CC1BE /* DMObject3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMObject3.h; sourceTree = "<group>"; };
 		84DB44DE2268D15B000CC1BE /* DMObject3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMObject3.m; sourceTree = "<group>"; };
 		84DB44E02268D1FE000CC1BE /* DMObjectProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMObjectProtocol.h; sourceTree = "<group>"; };
+		84DB44E12268EE3B000CC1BE /* DMObject4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMObject4.h; sourceTree = "<group>"; };
+		84DB44E22268EE3B000CC1BE /* DMObject4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMObject4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				84DB44DD2268D15B000CC1BE /* DMObject3.h */,
 				84DB44DE2268D15B000CC1BE /* DMObject3.m */,
 				84DB44E02268D1FE000CC1BE /* DMObjectProtocol.h */,
+				84DB44E12268EE3B000CC1BE /* DMObject4.h */,
+				84DB44E22268EE3B000CC1BE /* DMObject4.m */,
 				84DB44AE2268AA9A000CC1BE /* Main.storyboard */,
 				84DB44B12268AA9C000CC1BE /* Assets.xcassets */,
 				84DB44B32268AA9C000CC1BE /* LaunchScreen.storyboard */,
@@ -227,6 +232,7 @@
 				84DB44AA2268AA9A000CC1BE /* AppDelegate.m in Sources */,
 				84DB44D52268AD27000CC1BE /* DMObject1.m in Sources */,
 				84DB44DF2268D15B000CC1BE /* DMObject3.m in Sources */,
+				84DB44E32268EE3B000CC1BE /* DMObject4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

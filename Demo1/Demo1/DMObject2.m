@@ -45,11 +45,13 @@
 
 // add setter to override property
 - (void)setStrPublic2:(NSString *)strPublic2 {
-    // if current ivar is not equal to incoming
+    [self willChangeValueForKey:@"strPublic2"];
+     // if current ivar is not equal to incoming
     if (self.strPublic2 != strPublic2) {
         [_strPublic2 release];
         _strPublic2 = [strPublic2 copy];
     }
+    [self didChangeValueForKey:@"strPublic2"];
 }
 
 -(void)updateProperty2 {
